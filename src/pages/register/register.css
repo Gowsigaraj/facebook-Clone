@@ -1,0 +1,195 @@
+.registerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-top: 25px;
+
+
+    /* box-shadow: 10px 5px 2px 2px #ececec; */
+
+}
+
+.registerContainer {
+    border: 2px solid #f1f1f1;
+    width: 430px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba (0, 0, 0, .1);
+
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.register h1 {
+    margin-left: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.top img {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.easy {
+    margin-left: 16px;
+}
+
+.register span {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hr {
+    border-bottom: 2px solid #f1f1f1;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+
+
+}
+
+.row input {
+    height: 40px;
+    background-color: #f5f6f8;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #dddee2;
+    font-size: 18px;
+
+}
+
+.email input {
+    height: 40px;
+    background-color: #f5f6f8;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid #dddee2;
+    font-size: 18px;
+}
+
+.password input {
+    height: 40px;
+    background-color: #f5f6f8;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid #dddee2;
+    font-size: 18px;
+
+}
+
+.registerDate {
+    margin-top: 10px;
+}
+
+.registerGender {
+    margin-top: 10px;
+}
+
+.rowDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.rowDate input {
+    height: 30px;
+
+}
+
+.registerRadioContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #dddee2;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.registerPolicy {
+    margin-top: 20px;
+    color: #aab0ca;
+    font-size: 15px;
+}
+
+.registerPolicy span {
+    color: #647594;
+}
+
+.registerBtn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.registerBtn button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+@media only screen and (max-width:576px) {
+
+    .registerContainer{
+        flex:1;
+        width:100%;
+    }
+}

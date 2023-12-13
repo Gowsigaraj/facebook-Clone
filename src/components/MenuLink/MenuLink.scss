@@ -1,0 +1,47 @@
+.menuLink {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .menuLinkTest {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .menuLinkTestName {
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    &:hover {
+        background-color: #011631c9;
+        color: white;
+    }
+}
+
+//Responsiveness
+@media only screen and (max-width:992px) {
+    .menuLink {
+        display: block;
+
+        .menuLinkText {
+            display: none;
+        }
+
+        .menuLinkTextName {
+            display: none;
+        }
+
+        &:hover {
+            display: block;
+            background-color: #011631;
+            color: white;
+
+        }
+
+    }
+}
